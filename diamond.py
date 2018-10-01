@@ -11,6 +11,8 @@ class B1(A):
 class B2(A):
     def foo(self):
         print("B2")
+    def bar(self):
+        print("B2")
 
 class C(B1, B2):
     pass
@@ -23,3 +25,6 @@ b2 = B2()
 b2.foo()
 c = C()
 c.foo()
+
+c.bar()
+print("MRO for class C", C.__mro__)

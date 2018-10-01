@@ -17,3 +17,5 @@ b = B()
 b.foo()
 c = C()
 c.foo()
+
+print("MRO for class C:", C.__mro__)
