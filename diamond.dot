@@ -1,4 +1,5 @@
 digraph {
+    object -> a [dir=back];
     a -> b1 [dir=back];
     a -> b2 [dir=back];
     b1 -> c [dir=back];
