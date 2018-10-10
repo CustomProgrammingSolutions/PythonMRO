@@ -1,0 +1,6 @@
+digraph {
+    object -> b1 [dir=back];
+    object -> b2 [dir=back];
+    b1 -> derived [dir=back];
+    b2 -> derived [dir=back];
+}
